@@ -1,0 +1,43 @@
+{
+  "id": "manufacturing-gmp",
+  "title": "生产质量管理与过程确认（GMP 条款对照 + IQ/OQ/PQ）",
+  "description": "医疗器械生产质量管理规范（GMP）自查工具：2014 版条款框架清单 + 版本差异对照（载入两版条款 JSON 自动 diff）+ 过程确认 IQ/OQ/PQ 检查单生成。服务「2025 修订版 vs 2014 版 GMP 差异研究」与生产现场体系自查。",
+  "triggers": {
+    "keywords": [
+      "gmp",
+      "生产质量管理",
+      "过程确认",
+      "iq",
+      "oq",
+      "pq",
+      "iso13485",
+      "生产"
+    ],
+    "file_patterns": [
+      "gmp_toolkit.py"
+    ],
+    "intents": [
+      "GMP 自查",
+      "版本差异对照",
+      "过程确认方案"
+    ]
+  },
+  "provides": [
+    "manufacturing-gmp",
+    "gmp-checklist",
+    "version-diff",
+    "iq-oq-pq"
+  ],
+  "skills": [],
+  "needs_backends": [],
+  "license": "CC-BY-4.0",
+  "upstream": null,
+  "cost": "low",
+  "lazy": true,
+  "nested": true,
+  "entry": "scripts/gmp_toolkit.py",
+  "deps": [],
+  "generated_by": "lgd-skeleton/1.0 (manual port from rea scaffold)",
+  "idea": "GMP 条款对照 + 过程确认（IQ/OQ/PQ）工具箱",
+  "extension_note": "新增条款：在 GMP_CHAPTERS 加一项；差异对照只需维护条款 JSON。"
+}

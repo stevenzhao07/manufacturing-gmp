@@ -1,0 +1,8 @@
+manufacturing-gmp
+========================
+可插拔模块（lgd-skeleton/1.0）。生产质量管理与过程确认（GMP 条款对照 + IQ/OQ/PQ）。
+入口: scripts/gmp_toolkit.py
+元数据: module.json
+总入口: medical-ai-toolkit
+关联: sterilization-validation, design-controls-toolkit, device-regulatory-map
+许可: CC-BY-4.0 · 贡献者: @stevenzhao07 (MedXpert)
