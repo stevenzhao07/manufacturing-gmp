@@ -3,7 +3,7 @@
   "stage": "L9",
   "stage_name": "生产质量 GMP",
   "title": "生产质量管理与过程确认（GMP 条款对照 + IQ/OQ/PQ）",
-  "description": "医疗器械生产质量管理规范（GMP）自查工具：2014 版条款框架清单 + 版本差异对照（载入两版条款 JSON 自动 diff）+ 过程确认 IQ/OQ/PQ 检查单生成。服务「2025 修订版 vs 2014 版 GMP 差异研究」与生产现场体系自查。",
+  "description": "Medical device Good Manufacturing Practice (GMP) self-inspection tool: 2014 framework checklist + version-diff comparison.",
   "triggers": {
     "keywords": [
       "gmp",
